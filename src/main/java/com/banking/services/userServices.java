@@ -3,6 +3,7 @@ package com.banking.Services;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import com.banking.models.users;
 
 
 public class userServices{

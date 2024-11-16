@@ -1,5 +1,6 @@
 package com.banking;
 import java.util.Scanner;
+import com.banking.Services.userServices;
 
 public class BankingApp{
     public static void main (String[] args){
@@ -15,15 +16,15 @@ public class BankingApp{
             System.out.println("2. User Login");
             System.out.println("3. Exit");
 
-            int Choice =scanner.nextInt();
+            int Choice = scanner.nextInt();
             scanner.nextLine();
 
             switch(Choice){
                 case 1:
-                   userServices().registerUser();
+                   userServices.registerUser();
                    break; 
                 case 2:
-                    userServices().loginUser();
+                    userServices.loginUser();
                     break;
                 case 3:
                     System.out.println("Exiting the application.");

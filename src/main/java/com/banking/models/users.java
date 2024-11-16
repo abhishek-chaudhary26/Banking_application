@@ -1,6 +1,6 @@
 package com.banking.models;
 
-public  class user {
+public  class users {
     private String username;
 
     private String password;
